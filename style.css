@@ -1,0 +1,46 @@
+.Imagem-centro{
+    text-align: center;
+}
+
+.Animais{
+    display: flex;
+    align-items: flex-end;
+}
+.Pagina{
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
+
+.Animais img{
+    height: 300px;
+}
+
+.Logo img{
+    height: 90px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form{
+    border-radius: 16px;
+    padding: 20px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+form label{
+    margin-top: 5px;
+}
+
+form input{
+    margin-top: 5px;
+}
